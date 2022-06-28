@@ -31,6 +31,7 @@ struct ContentView: View {
                         Toggle("Add extra sprinkles", isOn: $order.addSprinkles)
                     }
                 }
+                .disabled(order.hasValidAddress == false)
                 Section {
                     NavigationLink {
                         AddressView(order: order)
