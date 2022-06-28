@@ -11,6 +11,9 @@
 		EF90BCEC286B3942001E38B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF90BCEB286B3942001E38B3 /* ContentView.swift */; };
 		EF90BCEE286B3944001E38B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF90BCED286B3944001E38B3 /* Assets.xcassets */; };
 		EF90BCF1286B3944001E38B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF90BCF0286B3944001E38B3 /* Preview Assets.xcassets */; };
+		EF90BCF8286B832B001E38B3 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF90BCF7286B832B001E38B3 /* Order.swift */; };
+		EF90BCFA286B95B6001E38B3 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF90BCF9286B95B6001E38B3 /* AddressView.swift */; };
+		EF90BCFC286B9741001E38B3 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF90BCFB286B9741001E38B3 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		EF90BCEB286B3942001E38B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF90BCED286B3944001E38B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF90BCF0286B3944001E38B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF90BCF7286B832B001E38B3 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		EF90BCF9286B95B6001E38B3 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		EF90BCFB286B9741001E38B3 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				EF90BCE9286B3942001E38B3 /* CupcakeCornerApp.swift */,
 				EF90BCEB286B3942001E38B3 /* ContentView.swift */,
+				EF90BCFB286B9741001E38B3 /* CheckoutView.swift */,
+				EF90BCF7286B832B001E38B3 /* Order.swift */,
+				EF90BCF9286B95B6001E38B3 /* AddressView.swift */,
 				EF90BCED286B3944001E38B3 /* Assets.xcassets */,
 				EF90BCEF286B3944001E38B3 /* Preview Content */,
 			);
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF90BCF8286B832B001E38B3 /* Order.swift in Sources */,
+				EF90BCFA286B95B6001E38B3 /* AddressView.swift in Sources */,
+				EF90BCFC286B9741001E38B3 /* CheckoutView.swift in Sources */,
 				EF90BCEC286B3942001E38B3 /* ContentView.swift in Sources */,
 				EF90BCEA286B3942001E38B3 /* CupcakeCornerApp.swift in Sources */,
 			);
@@ -195,7 +207,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
