@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF3B570D286CE74C0065CFE5 /* String-EmptyChecking.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3B570C286CE74C0065CFE5 /* String-EmptyChecking.swift */; };
 		EF90BCEA286B3942001E38B3 /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF90BCE9286B3942001E38B3 /* CupcakeCornerApp.swift */; };
 		EF90BCEC286B3942001E38B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF90BCEB286B3942001E38B3 /* ContentView.swift */; };
 		EF90BCEE286B3944001E38B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF90BCED286B3944001E38B3 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF3B570C286CE74C0065CFE5 /* String-EmptyChecking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-EmptyChecking.swift"; sourceTree = "<group>"; };
 		EF90BCE6286B3942001E38B3 /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF90BCE9286B3942001E38B3 /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
 		EF90BCEB286B3942001E38B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				EF90BCE9286B3942001E38B3 /* CupcakeCornerApp.swift */,
 				EF90BCEB286B3942001E38B3 /* ContentView.swift */,
 				EF90BCFB286B9741001E38B3 /* CheckoutView.swift */,
+				EF3B570C286CE74C0065CFE5 /* String-EmptyChecking.swift */,
 				EF90BCF7286B832B001E38B3 /* Order.swift */,
 				EF90BCF9286B95B6001E38B3 /* AddressView.swift */,
 				EF90BCED286B3944001E38B3 /* Assets.xcassets */,
@@ -150,6 +153,7 @@
 				EF90BCFA286B95B6001E38B3 /* AddressView.swift in Sources */,
 				EF90BCFC286B9741001E38B3 /* CheckoutView.swift in Sources */,
 				EF90BCEC286B3942001E38B3 /* ContentView.swift in Sources */,
+				EF3B570D286CE74C0065CFE5 /* String-EmptyChecking.swift in Sources */,
 				EF90BCEA286B3942001E38B3 /* CupcakeCornerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
