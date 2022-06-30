@@ -15,23 +15,23 @@ struct ContentView: View {
         NavigationView {
             Form {
                 Section {
-                    Picker("Select your cake type", selection: $order.data.type) {
+                    Picker("Select your cake type", selection: $order.type) {
                         ForEach(SharedOrder.types.indices) {
                             Text(SharedOrder.types[$0])
                         }
                     }
-                    Stepper("Number of cakes: \(order.data.quantity)", value: $order.data.quantity, in: 3...20)
+                    Stepper("Number of cakes: \(order.quantity)", value: $order.quantity, in: 3...20)
                 }
                 Section {
-                    Toggle("Any special requests?", isOn: $order.data.specialRequestEnabled.animation())
+                    Toggle("Any special requests?", isOn: $order.specialRequestEnabled.animation())
 
-                    if order.data.specialRequestEnabled {
-                        Toggle("Add extra frosting", isOn: $order.data.extraFrosting)
+                    if order.specialRequestEnabled {
+                        Toggle("Add extra frosting", isOn: $order.extraFrosting)
 
-                        Toggle("Add extra sprinkles", isOn: $order.data.addSprinkles)
+                        Toggle("Add extra sprinkles", isOn: $order.addSprinkles)
                     }
                 }
-                .disabled(order.data.hasValidAddress == false)
+                .disabled(order.hasValidAddress == false)
                 Section {
                     NavigationLink {
                         AddressView(order: order)
